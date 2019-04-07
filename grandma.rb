@@ -11,10 +11,10 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-hear = "I LOVE YOU GRANDMA!"
+hear = "I love you grandma"
 
 def speak_to_grandma(hear)
-  if hear == "I LOVE YOU GRANDMA!"
+  if hear == "I LOVE YOU GRANDMA!".uppercase
     puts "I LOVE YOU TOO PUMPKIN."
   elsif hear == "say"
     puts "HUH?! SPEAK UP, SONNY!"

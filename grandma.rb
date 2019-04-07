@@ -13,10 +13,12 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 grandma = "hear"
 
-if grandma == "say"
-  puts "HUH?! SPEAK UP, SONNY!"
-elsif grandma == "shout"
-  puts "NO, NOT SINCE 1983!"
-else grandma == "hear"
-  puts "I LOVE YOU TOO PUMPKIN."
+def speak_to_grandma
+  if grandma == "say"
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif grandma == "shout"
+    puts "NO, NOT SINCE 1983!"
+  else grandma == "hear"
+    puts "I LOVE YOU TOO PUMPKIN."
+  end
 end

@@ -11,14 +11,14 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-hear = "I love you grandma"
+volume = "I love you grandma!".uppercase
 
-def speak_to_grandma(hear)
-  if hear == "I LOVE YOU GRANDMA!".uppercase
-    puts "I LOVE YOU TOO PUMPKIN."
-  elsif hear == "say"
+def speak_to_grandma
+  if volume == "I love you grandma!"uppercase
+    puts "I love you too pumpkin!".uppercase
+  eslif volum == "low"
     puts "HUH?! SPEAK UP, SONNY!"
-  else hear == "shout"
-    puts "NO, NOT SINCE 1983!"
-  end
+  else
+    puts "NO, NOT SINCE 1938!"
+
 end

@@ -14,11 +14,11 @@
 grandma = "hear"
 
 def speak_to_grandma(hear)
-  if grandma == "say"
-    puts "HUH?! SPEAK UP, SONNY!"
-  elsif grandma == "shout"
-    puts "NO, NOT SINCE 1983!"
-  else grandma == "hear"
+  if grandma == "hear"
     puts "I LOVE YOU TOO PUMPKIN."
+  elsif grandma == "say"
+    puts "HUH?! SPEAK UP, SONNY!"
+  else grandma == "shout"
+    puts "NO, NOT SINCE 1983!"
   end
 end
